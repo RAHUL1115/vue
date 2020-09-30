@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="app"></div>
+        <div id="app1" style="margin-top:2rem"><button v-on:click="a++">+</button><button
+                v-on:click="b++">+</button><br><button v-on:click="a--">-</button><button
+                v-on:click="b--">-</button><br><span>{{a}}</span> <span>{{b}}</span><br><span>age+a
+                {{addA}}</span><br><span>age+b {{addB}}</span><br><button v-on:click="red = !red"
+                v-bind:class="{red:red}" style="background-color:#00f">on?</button></div>
+        <div id="app2"></div><!-- development -->
+        <script src="vue/vue.dev.js"></script><!-- prodcution -->
+        <!-- <script src="vue/vue.js"></script> -->
+        <!-- vue router -->
+        <!-- <script src="vue/vue-router.js"></script> -->
+        <script src="main.js"></script>
+    </body>
+
+</html>

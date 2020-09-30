@@ -28,14 +28,14 @@ const app = new Vue({
         logname: function (){
             console.log('helo');
         }
-    },
-    template: `
+    },    
+    template: /*html*/`
         <div style="display: block;">
             <p>{{ h1h() }}</p>
-            <a v-on:click.prevent='aclick' :href='website' >helo</a>
+            <a v-on:click.prevent='aclick' :href='website'>helo</a>
             <p v-html='webtag'></p>
             <input type='text' v-on:keyup.alt.enter='logname' v-model='name' />
-            <button v-on:dblclick='add(10)'>double click to add 10</button>
+            <button v-on:dblclick='add(10)' class="">double click to add 10</button>
             <button v-on:dblclick='sub(10)'>double click to sub 10</button>
             <button v-on:click='add(1)'>add 1</button>
             <button v-on:click='sub(1)'>sub 1</button>
@@ -43,7 +43,7 @@ const app = new Vue({
             <p class='nosel' >age : {{age}}</p>
             <div v-on:mousemove='updatepos' id="canvas">{{x}}, {{y}}</div>
         </div>
-    `,
+    `
 });
 
 const app1 = new Vue({
@@ -71,4 +71,24 @@ const app1 = new Vue({
     },
 });
 
- 
+const app2 = new Vue({
+    el:'#app2',
+    data: {
+        error:false,
+        persons:[{name:'rahul',age:20},{name:'ruchi',age:18}],
+    },
+    template:`
+        <div>
+            <h1>
+                conditions
+            </h1>
+            <div></div>
+            <helo class="src"></helo>
+            <button v-on:click='error=!error'>toggle error</button>
+            <p v-if='error'>error</p>
+            <p v-else-if='!error'>error else if</p>
+            <p v-else>sucesss</p>
+            <h1 v-for='person in persons'>name : {{person.name}} age : {{person.age}}</h1>
+        </div>
+    `
+});
