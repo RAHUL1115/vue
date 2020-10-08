@@ -1,2 +1,1735 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<div class="flex flex-col justify-center items-center">
+    <header class="text-gray-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <a href="unit1.html" class="mr-5 hover:text-gray-900">Unit1</a>
+                <a href="unit2.html" class="mr-5 hover:text-gray-900">Unit2</a>
+                <a href="unit3.html" class="mr-5 hover:text-gray-900">Unit3</a>
+                <a href="unit4.html" class="mr-5 text-blue-500">Unit4</a>
+                <a href="unit5.html" class="mr-5 hover:text-gray-900">Unit5</a>
+            </nav>
+        </div>
+    </header>
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">SERIAL NO. QUESTION</div>
+        <p class="text-gray-700 text-base">
+            A. A
+        </p>
+        <p class="text-gray-700 text-base">
+            B. B
+        </p>
+        <p class="text-gray-700 text-base">
+            C. C
+        </p>
+        <p class="text-gray-700 text-base">
+            D. D
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">CORRECT OPTION</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">1. Which of these is not type of spatial analysis?</div>
+        <p class="text-gray-700 text-base">
+            A. Spatial data Analysis
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Spatial autocorrelation
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Spatial stratified heterogeneity
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Geospatial
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">2. What is reclassification?</div>
+        <p class="text-gray-700 text-base">
+            A. An analytical technique based on point data.
+        </p>
+        <p class="text-gray-700 text-base">
+            B. The process of simplifying data in a data layer.
+        </p>
+        <p class="text-gray-700 text-base">
+            C. The process of combining one or more data ranges into a new data range to create a new data layer.
+        </p>
+        <p class="text-gray-700 text-base">
+            D. The process of combing two or more data layers.
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">3. Which of the following could you use a buffer operation for?</div>
+        <p class="text-gray-700 text-base">
+            A. Calculating the area of overlap between two polygon data layers.
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Calculating the number of observations within a set distance of a point, line or area feature.
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Determining the area within a set distance from a point, line or area feature
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Both B and C
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">4. What is point-in polygon overlay?</div>
+        <p class="text-gray-700 text-base">
+            A. A method interpolating point data.
+        </p>
+        <p class="text-gray-700 text-base">
+            B. An overlay method used to determine which points lie within the boundary of a polygon.
+        </p>
+        <p class="text-gray-700 text-base">
+            C. An overlay method used to reclassify polygon data.
+        </p>
+        <p class="text-gray-700 text-base">
+            D. An overlay method used to determine the distance between a point and its nearest neighbouring polygon
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">5. What is spatial interpolation?</div>
+        <p class="text-gray-700 text-base">
+            A. The process of establishing a statistical relationship between two spatially correlated variables.
+        </p>
+        <p class="text-gray-700 text-base">
+            B. The process of establishing values for areas between an existing set of discrete observations.
+        </p>
+        <p class="text-gray-700 text-base">
+            C. The process of modelling spatial pattern from a set of one or more data layers.
+        </p>
+        <p class="text-gray-700 text-base">
+            D. The process of establishing values for areas outside the boundary of an existing set of data points.
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">6. Which of the following overlay methods would you use to calculate the length of road within a forest polygon?</div>
+        <p class="text-gray-700 text-base">
+            A. Union
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Point-In-Polygon
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Erase
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Line-in-Polygon
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">7. Which of the following spatial interpolation techniques is an example of a local, exact, abrupt and deterministic interpolator?</div>
+        <p class="text-gray-700 text-base">
+            A. TIN
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Spatial moving average
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Thiessen polygon
+        </p>
+        <p class="text-gray-700 text-base">
+            D. polygons
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">8. What is the difference between slope and aspect?</div>
+        <p class="text-gray-700 text-base">
+            A. Slope is the gradient directly down the fall line, while aspect is the direction of the fall line relative to north.
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Slope is the gradient of the fall line relative to vertical, while aspect is the direction of the fall line relative to the line of greatest slope.
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Slope is the distance down the fall line from the top of the slope to its bottom, while aspect is the percentage gradient of this line averaged over its full distance.
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Slope is the direction of the fall line, while aspect is the gradient of the fall line.
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">9. What is not needed for Successful Spatial analysis?</div>
+        <p class="text-gray-700 text-base">
+            A. Competent User
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Soil Sample
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Appropriate Software
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Appropriate Hardware
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">10. What is location-allocation modelling?</div>
+        <p class="text-gray-700 text-base">
+            A. A method of site location based on overlaying multiple siting criteria maps
+        </p>
+        <p class="text-gray-700 text-base">
+            B. A method of allocating resources within an area of interest using buffer analyses.
+        </p>
+        <p class="text-gray-700 text-base">
+            C. A method within network analysis used to determine delivery routes.
+        </p>
+        <p class="text-gray-700 text-base">
+            D. A method of matching supply with demand across a network by locating a limited set of resources using network analysis.
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">11. Spatial Analysis is also called one of these names?</div>
+        <p class="text-gray-700 text-base">
+            A. Spatial Integration
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Spatial Statistics
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Spatial Unification
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Spatial System
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">12. An area is __________has the properties of area(size)and perimeter.</div>
+        <p class="text-gray-700 text-base">
+            A. one Dimentional
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Two Dimentional
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Three Dimentional
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Zero Dimentional
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">13. A __________is a set of objects with similar attributes.</div>
+        <p class="text-gray-700 text-base">
+            A. BLOB
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Class
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Aggregation
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Association
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">14. Kriging is also called as _________.</div>
+        <p class="text-gray-700 text-base">
+            A. Spatial Interpolation
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Geostatistical Method
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Kernal density estimation
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Spatial System
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">15. __________Convert street addresses or street interpolation into point feature.</div>
+        <p class="text-gray-700 text-base">
+            A. Geocoding
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Path Distance
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Networking
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Coding
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">16. The conversion of raster data into vector data is called_______.</div>
+        <p class="text-gray-700 text-base">
+            A. Rasterization
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Vectorization
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Spatial system
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Geospatial
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">17. A digital image prepared from aerial photograph or other remotely sensed data, in which the displacement, caused by camera tilt and terrain relief has been removed is called_______.</div>
+        <p class="text-gray-700 text-base">
+            A. Digital on/off service
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Double Orthophoto quad
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Digital orthophoto quad
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Double on/off service
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">18. ______is a proprietary _ESRI_ format for raster data</div>
+        <p class="text-gray-700 text-base">
+            A. ESRI grod
+        </p>
+        <p class="text-gray-700 text-base">
+            B. X and Y grod
+        </p>
+        <p class="text-gray-700 text-base">
+            C. DOQ
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Geospatial
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">19. A raster that contains cells of continuous values is called________.</div>
+        <p class="text-gray-700 text-base">
+            A. Floating point Raster
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Georeference Raster
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Contiguous Raster
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Poly Raster
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">20. What does GPS stand for?</div>
+        <p class="text-gray-700 text-base">
+            A. Going Places Sometimes
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Global Positioning Satellites
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Government Positioning Satellites
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Global Positioning System
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">21. When was the first GPS satellite launched?_</div>
+        <p class="text-gray-700 text-base">
+            A. 1978
+        </p>
+        <p class="text-gray-700 text-base">
+            B. 1994
+        </p>
+        <p class="text-gray-700 text-base">
+            C. 1776
+        </p>
+        <p class="text-gray-700 text-base">
+            D. 1963
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">22. PPS Stand for ______.</div>
+        <p class="text-gray-700 text-base">
+            A. Precise Positioning Services
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Point-Point Service
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Precise Positin System
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Point to Point System
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">23. A better option for representing continuous phenomenon is the_______</div>
+        <p class="text-gray-700 text-base">
+            A. Raster Data Model
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Vector Data Model
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Binary Data Model
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Digital Data Model
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">24. The raster data model uses a _____to cover the space.</div>
+        <p class="text-gray-700 text-base">
+            A. Regular grid
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Irregular grid
+        </p>
+        <p class="text-gray-700 text-base">
+            C. one directional grid
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Bi directional grid
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">25. Satellite image use the ______ encoding method for data storage.</div>
+        <p class="text-gray-700 text-base">
+            A. Cell by cell
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Run length encoding
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Quad tree
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Spatial System
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">26. What does GPS do?</div>
+        <p class="text-gray-700 text-base">
+            A. Determine absolute location
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Map, Analyze and process different info
+        </p>
+        <p class="text-gray-700 text-base">
+            C. To determine landscapes
+        </p>
+        <p class="text-gray-700 text-base">
+            D. To determine colleges
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">27. What is Glonass?</div>
+        <p class="text-gray-700 text-base">
+            A. Missile Defense System
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Europe's GPS system span
+        </p>
+        <p class="text-gray-700 text-base">
+            C. China's GPS System
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Rissian's GPS System
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">28. What is the main benefit of GLONASS?</div>
+        <p class="text-gray-700 text-base">
+            A. Global Orbiting Navegation Internacional System
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Global Positioning Satellites
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Precise Positin System
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Global Russian Orbiting Navigation System
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">29. What is DGPS</div>
+        <p class="text-gray-700 text-base">
+            A. Detectable Global Positioning System
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Deliberate Global Positioning System
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Discombobulated Global Positioning System
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Differential Global Positioning System
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">30. What applications GLONASS did it have?</div>
+        <p class="text-gray-700 text-base">
+            A. Regulated public service
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Navigation to any side of the world
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Weather transmission, communication, navigation and data recognition
+        </p>
+        <p class="text-gray-700 text-base">
+            D. For war and espionaje
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">31. Topological characteristics of spatial data do not include:</div>
+        <p class="text-gray-700 text-base">
+            A. Adjacency
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Inclusion
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Connectivity
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Elevation
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">32. Which of the following is an example of spatial analysis?</div>
+        <p class="text-gray-700 text-base">
+            A. Natural vegetation on hillsides
+        </p>
+        <p class="text-gray-700 text-base">
+            B. A Checkboard pattern created by farmers
+        </p>
+        <p class="text-gray-700 text-base">
+            C. The sizes of major oceans
+        </p>
+        <p class="text-gray-700 text-base">
+            D. The flight patterns of birds
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">33. What is the name of the Russian equivalent of GPS?</div>
+        <p class="text-gray-700 text-base">
+            A. GLONASS
+        </p>
+        <p class="text-gray-700 text-base">
+            B. GPESKI
+        </p>
+        <p class="text-gray-700 text-base">
+            C. GLASNOST
+        </p>
+        <p class="text-gray-700 text-base">
+            D. IKONOS
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">34. _________ allows the assignment of features to a class on the basis of attribute values</div>
+        <p class="text-gray-700 text-base">
+            A. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Retrieval
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Generalization
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Estimation
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">35. _______ functions allow the selective search of data</div>
+        <p class="text-gray-700 text-base">
+            A. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Retrieval
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Generalization
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Estimation
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">36. ______________ is a function that joins different classes of objects with common characteristics to a higher level generalized class</div>
+        <p class="text-gray-700 text-base">
+            A. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Retrieval
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Generalization
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Estimation
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">37. ____________ functions allow the calculation of distances, lengths, or areas</div>
+        <p class="text-gray-700 text-base">
+            A. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Retrieval
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Generalization
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Measurement
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">38. ___________ function allows the combination of two (or more) spatial data layers comparing them position by position, and treating areas of overlap and of non-overlap in distinct ways</div>
+        <p class="text-gray-700 text-base">
+            A. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Retrieval
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Generalization
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Overlay
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">39. Which function evaluates the characteristics of an area surrounding feature_s location?</div>
+        <p class="text-gray-700 text-base">
+            A. Neighbourhood
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Overlay
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Retrieval
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">40. Which neighbourhood function determines a spatial envelope (buffer) around given feature?</div>
+        <p class="text-gray-700 text-base">
+            A. Buffer zone generation
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Overlay
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Retrieval
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">41. Computation that can be performed by topographic function is</div>
+        <p class="text-gray-700 text-base">
+            A. Determination of slope angle
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Determination of slope aspect
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Determination of slope length
+        </p>
+        <p class="text-gray-700 text-base">
+            D. All of the above
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">42. Which function works on the basis of networks for example road networks, water courses in coastal zones, and communication lines in mobile telephony?</div>
+        <p class="text-gray-700 text-base">
+            A. Connectivity
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Overlay
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Retrieval
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">43. Contiguity function, network analytic function and visibility function are a part of _____________ function</div>
+        <p class="text-gray-700 text-base">
+            A. Connectivity
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Overlay
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Retrieval
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">44. Search function, buffer zone generation, interpolation and topographic function are a part of _______ function</div>
+        <p class="text-gray-700 text-base">
+            A. Overlay
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Retrieval
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Neighbourhood
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">45. Analytical capabilities of a GIS use ______data to answer questions about real-world</div>
+        <p class="text-gray-700 text-base">
+            A. Spatial and non-spatial
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Static and dynamic
+        </p>
+        <p class="text-gray-700 text-base">
+            C. True and false
+        </p>
+        <p class="text-gray-700 text-base">
+            D. New and old
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">46. Distance between two feature points say p and q, is calculated by_______</div>
+        <p class="text-gray-700 text-base">
+            A. Root mean square error
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Pythagorean distance function
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Regression
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Integration
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">47. Select spatial selection query from given options</div>
+        <p class="text-gray-700 text-base">
+            A. Interactive spatial selection
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Spatial selection by attribute condition
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Spatial selection using topological relationship
+        </p>
+        <p class="text-gray-700 text-base">
+            D. All of the above
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">48. _______ is a technique of purposefully removing detail from an input data set to reveal important patterns of spatial distribution</div>
+        <p class="text-gray-700 text-base">
+            A. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Regression
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Retrieval
+        </p>
+        <p class="text-gray-700 text-base">
+            D. derivation
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">49. Type of classification is</div>
+        <p class="text-gray-700 text-base">
+            A. User controlled
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Automatic
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Static
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Both a & b
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">50. In _______ classification user only specifies the number of classes in the output data set and system automatically determines the class break points</div>
+        <p class="text-gray-700 text-base">
+            A. Automatic
+        </p>
+        <p class="text-gray-700 text-base">
+            B. User controlled
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Static
+        </p>
+        <p class="text-gray-700 text-base">
+            D. dynamic
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">51. Two main techniques of determining class break points in automatic classification are</div>
+        <p class="text-gray-700 text-base">
+            A. Equal value & Equal occurrence
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Equal interval & Equal frequency
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Equal phase & Equal frequency
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Equal interval & Equal phase
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">52. In _______ classification, a user selects the attributes that will be used as the classification parameters and defines the classification method</div>
+        <p class="text-gray-700 text-base">
+            A. Automatic
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Equal interval
+        </p>
+        <p class="text-gray-700 text-base">
+            C. User-controlled
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Equal frequency
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">53. Two polygon layers A and B produce a new polygon layer that contains all intersections of polygons from A and B</div>
+        <p class="text-gray-700 text-base">
+            A. Raster overlay
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Raster intersection
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Vector overlay
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Vector division
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">54. Polygon clipping and polygon overwrite are ____________ operations</div>
+        <p class="text-gray-700 text-base">
+            A. Raster overlay
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Raster intersection
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Polygon division
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Polygon overlay
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">55. GISs that support raster processing usually have a language to express operations on raste  These languages are generally referred to as ________rs</div>
+        <p class="text-gray-700 text-base">
+            A. Map algebra
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Raster algebra
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Vector algebra
+        </p>
+        <p class="text-gray-700 text-base">
+            D. GIS algebra
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">56. Which of the following overlay methods would you use to calculate the length of road within a forest polygon?</div>
+        <p class="text-gray-700 text-base">
+            A. Union
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Point in polygon
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Line in polygon
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Polygon in polygon
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">57. The standard overlay operator for two layers of polygons is ________</div>
+        <p class="text-gray-700 text-base">
+            A. Polygon intersection operator
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Polygon clipping operator
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Polygon Overwrite operator
+        </p>
+        <p class="text-gray-700 text-base">
+            D. All of the above
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">58. Determination of contour lines comes under which type of function?</div>
+        <p class="text-gray-700 text-base">
+            A. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Overlay
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Neighbourhood
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Connectivity
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">59. Which function allow the retrieval of features that fall within a given search window?</div>
+        <p class="text-gray-700 text-base">
+            A. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Overlay
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Search
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Buffer zone generation
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">60. Intersection, union, difference and complement are the operations of which function?</div>
+        <p class="text-gray-700 text-base">
+            A. Classification
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Overlay
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Neighbourhood
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Connectivity
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">61. Geometric measurement on spatial features includes which of the following computations?</div>
+        <p class="text-gray-700 text-base">
+            A. Counting
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Distance
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Area size
+        </p>
+        <p class="text-gray-700 text-base">
+            D. All of the above
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">62. What are the primitives of vector data set?</div>
+        <p class="text-gray-700 text-base">
+            A. Point
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Polyline
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Polygon
+        </p>
+        <p class="text-gray-700 text-base">
+            D. All of them
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">63. Select properties of vector features</div>
+        <p class="text-gray-700 text-base">
+            A. Location
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Length
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Area
+        </p>
+        <p class="text-gray-700 text-base">
+            D. All
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">64. The anchor point is fixed by convention to be _______ location of the raster</div>
+        <p class="text-gray-700 text-base">
+            A. Lower left
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Lower right
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Upper right
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Center
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">65. Raster_s anchor point, the cell resolution, and the position of the cell in the raster determine ______</div>
+        <p class="text-gray-700 text-base">
+            A. Location of an individual cell
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Size of individual cell
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Width of cell
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Height of cell
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">66. __________ is calculated as the number of cells multiplied by the cell area size</div>
+        <p class="text-gray-700 text-base">
+            A. Location of an individual cell
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Size of individual cell
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Width of cell
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Area of raster
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">67. The interactively defined selection objects like points, lines, or polygons are used in which type of query?</div>
+        <p class="text-gray-700 text-base">
+            A. Interactive spatial selection
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Spatial selection by attribute
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Combined attribute condition
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Spatial selection using topological selection
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">69. Area < 400000 is which type of query?</div>
+        <p class="text-gray-700 text-base">
+            A. Interactive spatial selection
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Spatial selection by attribute
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Combined attribute condition
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Spatial selection using topological selection
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">70. Land use = 80 is which type of query?</div>
+        <p class="text-gray-700 text-base">
+            A. Interactive spatial selection
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Spatial selection by attribute
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Combined attribute condition
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Spatial selection using topological selection
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">71. Area < 400000 AND Land use = 80 is which type of query?</div>
+        <p class="text-gray-700 text-base">
+            A. Interactive spatial selection
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Spatial selection by attribute
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Combined attribute condition
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Spatial selection using topological selection
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">72. NOT (LandUse = 80) would select</div>
+        <p class="text-gray-700 text-base">
+            A. All areas with land use class 100
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Al areas with land use class 80
+        </p>
+        <p class="text-gray-700 text-base">
+            C. all areas with a different land use class than 80
+        </p>
+        <p class="text-gray-700 text-base">
+            D. all areas with land use class 80 & 100
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">73. NOT (LandUse = 80) can also be written as</div>
+        <p class="text-gray-700 text-base">
+            A. LandUse < > 80
+        </p>
+        <p class="text-gray-700 text-base">
+            B. LandUse > 80
+        </p>
+        <p class="text-gray-700 text-base">
+            C. LandUse < 80
+        </p>
+        <p class="text-gray-700 text-base">
+            D. LandUse = 80
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">74. Which type of query uses containment relationship?</div>
+        <p class="text-gray-700 text-base">
+            A. Attribute projection query
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Point in polygon query
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Tuple selection query
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Join selection query
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">75. Standard arithmetic operators in raster overlay operation are</div>
+        <p class="text-gray-700 text-base">
+            A. Addition & Subtraction
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Multiplication
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Integer & Modulo Division
+        </p>
+        <p class="text-gray-700 text-base">
+            D. All of the above
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">D</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">76. Map algebra equation C1 := A + 10 denotes:</div>
+        <p class="text-gray-700 text-base">
+            A. add a constant factor of 10 to all cell values of raster A and store the result as output raster C1
+        </p>
+        <p class="text-gray-700 text-base">
+            B. add a constant factor of 10 to first cell value of raster A and store the result as output raster C1
+        </p>
+        <p class="text-gray-700 text-base">
+            C. add a constant factor of 10 to all first row values of raster A and store the result as output raster C1
+        </p>
+        <p class="text-gray-700 text-base">
+            D. add a constant factor of 10 to all first column values of raster A and store the result as output raster C1
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">77. Assignment C2 := A + B</div>
+        <p class="text-gray-700 text-base">
+            A. The interactively defined selection objects like points, lines, or polygons are used 37:41in which type of query?
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Will add the values of A and B cell by cell, and store the result as raster C2
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Will add the first values of A and B and store the result as raster C2
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Will add the anchor point values of A and B and store the result as raster C2
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">78. Which of the following is not standard comparison operator of raster overlay operation?</div>
+        <p class="text-gray-700 text-base">
+            A. < >
+        </p>
+        <p class="text-gray-700 text-base">
+            B. > <
+        </p>
+        <p class="text-gray-700 text-base">
+            C. =
+        </p>
+        <p class="text-gray-700 text-base">
+            D. <
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">79. Comparison & logical operators will store values in output raster as</div>
+        <p class="text-gray-700 text-base">
+            A. Imaginary values
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Numerical values
+        </p>
+        <p class="text-gray-700 text-base">
+            C. True & False
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Zero
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">C</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">80. Output raster:= CON(condition; then expression; else expression) means:</div>
+        <p class="text-gray-700 text-base">
+            A. condition is the tested condition, then expression is evaluated if condition holds, and else expression is evaluated if it does not hold
+        </p>
+        <p class="text-gray-700 text-base">
+            B. condition is the tested condition, then expression is evaluated if condition does not hold, and else expression is evaluated if it hold
+        </p>
+        <p class="text-gray-700 text-base">
+            C. none of the above
+        </p>
+        <p class="text-gray-700 text-base">
+            D. both are correct
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">81. In given assignment CON(A = forest; 10; 0)</div>
+        <p class="text-gray-700 text-base">
+            A. Forest is else statement, 10 is then statement & 0 is condition
+        </p>
+        <p class="text-gray-700 text-base">
+            B. Forest is condition, 10 is then statement & 0 is else statement
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Forest is then statement, 10 is condition & 0 is else statement
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Forest is condition, 10 is else statement & 0 is then statement
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">B</span>
+        </p>
+    </div>
+</div>
+
+<div class="w-11/12 rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">82. Given assignment CON(A = forest; 10; 0) will evaluate to</div>
+        <p class="text-gray-700 text-base">
+            A. 10 for each cell in the output raster where the same cell in A is classified as forest
+        </p>
+        <p class="text-gray-700 text-base">
+            B. 0 for each cell in the output raster where the same cell in A is classified as forest
+        </p>
+        <p class="text-gray-700 text-base">
+            C. Forest for each cell in the output raster where the same cell in A is classified as 10
+        </p>
+        <p class="text-gray-700 text-base">
+            D. Forest for each cell in the output raster where the same cell in A is classified as 0
+        </p>
+        <p class="text-gray-700 mt-2 text-base">
+            Ans: <span class="font-bold">A</span>
+        </p>
+    </div>
+</div>
+
+</div>
