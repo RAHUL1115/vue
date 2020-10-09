@@ -1,14 +1,14 @@
 const app = new Vue({
     el:'#app',
     data: {
-        paths: [],
+        paths: [{0:'telo',1:'https:telo.com'}],
         time:5,
         minurl:'',
         url:'',
         there : false,
     },
     mounted:async function(){
-        fetch('http://localhost:4000')
+        fetch('http://localhost:4030')
         .then(response=>response.json())
         .then((data)=>{
             this.paths = data;
@@ -27,7 +27,19 @@ const app = new Vue({
             return;
         })
         .catch((err)=>{
-            console.log(err);
+            for (let i = 0; i < this.paths.length; i++) {
+                if (window.location.hash === '#/' + this.paths[i][0]) {
+                    this.minurl = this.paths[i][0];
+                    console.log(this.minurl);
+                    this.url = this.paths[i][1];
+                    console.log(this.url);
+                    this.there = true;
+                    this.timer();
+                    return;
+                }
+            }
+            this.minurl = window.location.hash;
+            return;
         });
     },
     methods:{
