@@ -13,7 +13,7 @@ const app = new Vue({
         // .then((data)=>{
         //     this.paths = data;
         //     for (let i = 0; i < this.paths.length; i++) {
-        //         if ((window.location.pathname).split('/')[2] === this.paths[i][0]) {
+        //         if (window.location.hash === '#/' + this.paths[i][0]) {
         //             this.minurl = this.paths[i][0];
         //             console.log(this.minurl);
         //             this.url = this.paths[i][1];
@@ -23,12 +23,12 @@ const app = new Vue({
         //             return;
         //         }
         //     }
-        //     this.minurl = window.location.hash;
+        //     this.minurl = (window.location.pathname).split('/')[2];
         //     return;
         // })
         // .catch((err)=>{
         //     for (let i = 0; i < this.paths.length; i++) {
-        //         if ((window.location.pathname).split('/')[2] === this.paths[i][0]) {
+        //         if (window.location.hash === '#/' + this.paths[i][0]) {
         //             this.minurl = this.paths[i][0];
         //             console.log(this.minurl);
         //             this.url = this.paths[i][1];
